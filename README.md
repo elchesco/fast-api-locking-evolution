@@ -1,9 +1,5 @@
 # Code companion — locking evolution post
 
-Stand-alone, copy-pasteable files for every code block in
-[`docs/blog-locking-evolution.md`](../blog-locking-evolution.md).
-Names use generic `myapp` placeholders — swap for your project's.
-
 Each folder maps to one stage of the post's narrative:
 
 ```
@@ -42,15 +38,4 @@ Each folder maps to one stage of the post's narrative:
   intentionally. Treat it as a wiring diagram. The IAM role + ECS
   task def references will need to match whatever your stack already
   has.
-
-## Pin versions used in the post
-
-| Tool | Version |
-| --- | --- |
-| Python | 3.11 |
-| FastAPI | 0.111 |
-| SQLAlchemy (async) | 2.0 |
-| asyncpg | 0.29 |
-| Postgres | 15 |
-| AWS CDK | 2.x |
-| AWS EventBridge Scheduler | GA |
+ 
